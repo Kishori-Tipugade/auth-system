@@ -66,3 +66,29 @@ button:hover {
 .link:hover {
   text-decoration: underline;
 }
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Toast */
+.toast {
+  margin-top: 15px;
+  background: #4f46e5;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 500;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
